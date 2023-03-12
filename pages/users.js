@@ -14,8 +14,9 @@ export default function UsersPage({users}){
           <th>Address</th>
           <th>Company</th>
           </tr>
+          </table>
             <ListUser users={[...users]}/>
-        </table>
+      
         </>
 }
 
